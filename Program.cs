@@ -51,9 +51,6 @@ namespace FriendCircle
             return circlesFound;
         }
 
-
-
-
         static void CrossOffCircles(string[] friends, bool[,] visited, int index)
         {
             Queue<int> queue = new Queue<int>();
